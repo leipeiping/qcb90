@@ -39,4 +39,4 @@ wit_url = 'http://120.78.128.25:8766/futureloan/member/withdraw'
 wit_data = {'member_id': '200013', 'amount': '1000'}
 withdraw
 import sys, io
-sys.stdout=io.TextIOWrapper(sys.stdout.bu)
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="gb18030")
