@@ -1,5 +1,3 @@
-import sys, io
-sys.stdout=io.TextIOWrapper(sys.stdout.bu)
 #提现和充值
 import requests
 def log_andreg_(url,data,method='post'):
@@ -40,3 +38,5 @@ header_3 = {"X-Lemonban-Media-Type": 'lemonban.v2', 'Authorization': 'Bearer '+t
 wit_url = 'http://120.78.128.25:8766/futureloan/member/withdraw'
 wit_data = {'member_id': '200013', 'amount': '1000'}
 withdraw
+import sys, io
+sys.stdout=io.TextIOWrapper(sys.stdout.bu)
